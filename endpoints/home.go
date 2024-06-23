@@ -6,7 +6,7 @@ import (
 )
 
 func (s *Server) getHome(w http.ResponseWriter, r *http.Request) {
-	c := views.Root("Cock Sucker")
+	c := views.Root("World")
 	err := c.Render(r.Context(), w)
 
 	if err != nil {
