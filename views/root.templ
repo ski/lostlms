@@ -1,5 +1,21 @@
 package views
 
 templ Root(name string) {
-	<div>Hello, { name }</div>
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Lostlms</title></head>
+<script src="https://unpkg.com/htmx.org@2.0.0"></script>
+    <body>
+
+    <h1>My First Heading</h1>
+     <p>Hello, { name }</p>
+     <button hx-post="/clicked" hx-swap="outerHTML">
+         Click Me
+       </button>
+</body>
+</html>
+}
+
+templ Clicked(name string) {
+    <p>Tickled, { name }</p>
 }

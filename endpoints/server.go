@@ -34,6 +34,7 @@ func (hr healthResponse) Render(w http.ResponseWriter, r *http.Request) error {
 
 func (s *Server) routes() {
 	s.router.Get("/", s.getHome)
+	s.router.Post("/clicked", s.postClicked)
 	s.router.Get("/health", s.handleGetHealth)
 }
 
