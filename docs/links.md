@@ -1,2 +1,3 @@
-[JS Mentions](https://css-tricks.com/so-you-want-to-build-an-mention-autocomplete-feature/)
-[Simple Rest Service](https://dev.to/kashifsoofi/rest-api-with-go-chi-and-inmemory-store-43ag)
+- [JS Mentions](https://css-tricks.com/so-you-want-to-build-an-mention-autocomplete-feature/)
+- [Simple Rest Service](https://dev.to/kashifsoofi/rest-api-with-go-chi-and-inmemory-store-43ag)
+- [Tailwind and HTMX](https://medium.com/gravel-engineering/personal-blog-with-htmx-go-part-2-integrating-tailwindcss-412ebc4dcc97)
